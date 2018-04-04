@@ -19,8 +19,8 @@ public interface UserDAO {
 
     /**
      * 根据ID查找User对象
-     * @param:userId
-     * @return:User
+     * @param userId
+     * @return User
      */
     User selectByPrimaryKey(Integer userId);
     
